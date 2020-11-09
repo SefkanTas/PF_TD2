@@ -1,5 +1,7 @@
 package exercice1;
 
+import java.util.List;
+
 public class App {
 
     public static void question_1_1(){
@@ -15,7 +17,11 @@ public class App {
         System.out.println(sommeString.sommer("x ","y"));
     }
 
-    public static void main(String[] args) {
+    public static void question_1_2(){
+        ToString<List> ts = (list) -> "pas le temps :(";
+    }
+
+        public static void main(String[] args) {
         question_1_1();
     }
 }
