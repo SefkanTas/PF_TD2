@@ -1,5 +1,6 @@
 package exercice_2;
 
+import java.util.List;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
@@ -23,7 +24,13 @@ public class App {
         BiPredicate<Integer, Double> accesAutorise = (taille, poid)
                 -> tailleCorrect.test(taille) && poidCorrect.test(poid);
 
+
+        ///Question 2
+
+
+
     }
+
 
     public static void main(String[] args) {
         question_1();
